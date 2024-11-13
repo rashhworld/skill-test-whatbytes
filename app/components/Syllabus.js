@@ -2,25 +2,29 @@ export default function Syllabus() {
   const subjects = [
     {
       label: "HTML Tools, Forms, History",
-      color: "blue-500",
+      progressBarColor: "bg-blue-500",
+      textColor: "text-blue-500",
       thumb: "bg-blue-100",
       progress: "80%",
     },
     {
       label: "Tags and References in HTML",
-      color: "orange-500",
+      progressBarColor: "bg-orange-500",
+      textColor: "text-orange-500",
       thumb: "bg-orange-100",
       progress: "60%",
     },
     {
       label: "Table and Reference in HTML",
-      color: "red-500",
+      progressBarColor: "bg-red-500",
+      textColor: "text-red-500",
       thumb: "bg-red-100",
       progress: "24%",
     },
     {
       label: "Tables & CSS Basics",
-      color: "green-500",
+      progressBarColor: "bg-green-500",
+      textColor: "text-green-500",
       thumb: "bg-green-100",
       progress: "96%",
     },
@@ -38,11 +42,11 @@ export default function Syllabus() {
             <div className="flex items-center gap-5 mt-2">
               <div className={`flex-1 ${sub.thumb} rounded-full h-2`}>
                 <div
-                  className={`bg-${sub.color} h-2 rounded-full`}
+                  className={`${sub.progressBarColor} h-2 rounded-full`}
                   style={{ width: sub.progress }}
                 ></div>
               </div>
-              <span className={`font-bold text-${sub.color}`}>
+              <span className={`font-bold ${sub.textColor}`}>
                 {sub.progress}
               </span>
             </div>

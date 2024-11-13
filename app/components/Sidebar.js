@@ -16,7 +16,7 @@ export default function Sidebar({ isOpen }) {
 
   return (
     <aside
-      className={`fixed top-0 left-0 h-full w-64 z-20 border-r bg-white font-medium
+      className={`fixed top-0 left-0 h-full w-64 z-10 border-r bg-white font-medium
         transform transition-transform duration-300 ease-in-out
         lg:translate-x-0 pt-16
         ${isOpen ? "translate-x-0" : "-translate-x-full"}`}

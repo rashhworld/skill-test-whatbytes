@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Whatbytes Dashboard",
-  description: "Whatbytes Dashboard",
+  title: "Student Dashboard | Whatbytes",
+  description: "Dashboard for students of Whatbytes",
   icons: {
     icon: "/images/logo.png",
   },

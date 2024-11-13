@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar({ isOpen, setIsOpen }) {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-30 px-4 py-3 border-b bg-white">
+    <nav className="fixed top-0 left-0 right-0 z-20 px-4 py-3 border-b bg-white">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-4">
           <div className="flex items-center">

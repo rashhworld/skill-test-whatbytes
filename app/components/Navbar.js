@@ -21,7 +21,7 @@ export default function Navbar({ isOpen, setIsOpen }) {
               height={30}
               className="rounded-full"
             />
-            <span className="font-medium text-lg">Rashmi Ranjan</span>
+            <span className="font-medium">Rashmi Ranjan</span>
           </button>
           <button
             className="lg:hidden bg-gray-100 rounded-md px-2 h-10"
